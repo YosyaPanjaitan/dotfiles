@@ -1,0 +1,41 @@
+
+rofi.color-enabled: true
+
+! Window: ‘background’, ‘border’, ‘separator’
+rofi.color-window: argb:FF161925, #20294A, #FF5D00
+
+! State: ‘bg’, ‘fg’, ‘altbg’, ‘hlbg’, hlfg
+rofi.color-normal: #161925, #FFFFFF, #1F253C, #FF00B7, #FFFFFF
+rofi.color-active: #161925, #FFFFFF, #161925, #FF00B7, #FFFFFF
+rofi.color-urgent: argb:00252936, #ff0000, argb:00252936, argb:00252936, #ff0000
+
+rofi.modi: drun,run,window,combi,ssh,file-browser
+
+rofi.width: 20
+! 1 for bottom 7 for top
+rofi.location: 7
+rofi.padding: 1
+rofi.opacity:50
+rofi.border: 10px
+rofi.border-radius: 10px 10px 10px 10px
+rofi.line-margin: 8
+rofi.line-padding: 0
+rofi.lines: 32
+rofi.separator-style: dash
+rofi.columns: 1
+rofi.font: Nimbus Sans Narrow Bold 10
+rofi.bw: 9
+rofi.eh: 1
+rofi.hide-scrollbar: false
+rofi.auto-select: false
+rofi.show-icons: true
+rofi.cycle: true
+
+! DISPLAY
+rofi.sidebar-mode: true
+rofi.display-drun:  
+rofi.display-run: 
+rofi.display-window: 
+rofi.display-ssh:  ⇋
+rofi.display-file-browser: ♨
+rofi.display-combi: ☁
